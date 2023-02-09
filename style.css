@@ -1,0 +1,313 @@
+*{
+    font-family: 'Poppins';
+    /*border-radius: 25px;*/
+}
+body{
+    /*background:linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);*/
+    background: #fff;
+    border-radius: 15px 0px 0px 15px;
+}
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 84px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.webpage{
+    display: flex;
+}
+.menubar{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    align-content:space-between;/*properties*/
+}
+.main_page{
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    border-radius: 15px 15px 15px 15px;
+}
+.nav__brand{
+    margin-top: 46px;
+    margin-left: 66.69px;
+    margin-bottom: 89px;
+    margin-right: 123px;
+}
+.nav_menu{
+    padding: 1rem;
+    width: 30px;
+    height: 20px;
+    left: 35px;
+    top: 46px;
+}
+.social_icons{
+    padding: 1rem;
+    width: 28px;
+    height: 132px;
+    left: 37px;
+    top: 701px;
+    margin-top: 635px;
+}
+.nav_bar{
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.nav_bar, .ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav_bar, .li{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.nav_item{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 90px;
+}
+/*.highlight{
+    background: #fff;
+    color: #B6CCDA;
+    border-radius: 100px;
+}*/
+.icons{
+    padding-top: 1rem;
+    justify-content: center;
+    margin: 56px 314px 85px 70px;
+}
+.main_page{
+    background:linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%); ;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: center;
+}
+.hero__tagline{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0;
+}
+.hero_block{
+    width: 680px;
+    height: 258px;
+    left: 162px;
+    top: 271px;
+    width: 80%;
+    margin: ;
+}
+.btn{
+    border: 3px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 1rem 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFAFA;
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    margin-top: 82px;
+}
+.block__image{
+    display: flex;
+    justify-content: center;
+}
+.color{
+    width: 30px;
+    height: 162px;
+    left: 1343px;
+    top: 369px;
+    /*align-self: center;*/
+    padding-top: 120px;
+    margin-right: 17px;
+    margin-left: 0px;
+}
+.watches{
+    /*width: 489px;
+    height: 489px;
+    left: 837px;
+    top: 177px;*/
+
+}
+.watch_img{
+    padding-right: 27px;
+}
+.watch_shadow{
+    /*width: 309px;
+    height: 50px;
+    left: 920px;
+    top: 666px;*/
+    background: #ABC6D6;
+    filter: blur(20.5px);
+    width: 309px;
+    height: 50px;
+    margin-left: 70px;
+}
+.page_indicator{
+        display: flex;
+        justify-content: space-between;
+        margin: 79px 97px 42px 62px;
+    }
+.indicator{
+        width: 73px;
+        height: 21px;
+        padding: 3rem;
+    }
+.block_content{
+    display: none;
+}
+.mobile_nav{
+    display: none;
+}
+    @media screen and (max-width:700px){
+        .webpage{
+            width: 390px;
+            height: 100vh;
+        }
+        .nav_item{
+            display: none;
+        }
+        .components{
+            display: none;
+        }
+        .page_indicator{
+            display: none;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+            background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+        }
+        .main_page{
+            display: flex;
+            flex-direction: column;
+        }
+        .nav_bar{
+            margin-bottom: 0px;
+            width: 100px;
+            height: 100px;
+        }
+        .nav__brand{
+            left: 9.38%;
+            right: 9.37%;
+            top: 0%;
+            bottom: 0%;
+            margin-top: 33px;
+            margin-left: 32px;
+        }
+        .icons{
+            width: 88px;
+            height: 24px;
+            left: 292px;
+            top: 40px;
+            padding-top: 0;
+            margin-right: 0px;   
+
+
+           
+        }
+        .block__heading, .hero__tagline{
+            display: none;
+        }
+        .block_content{
+            display: flex;
+            flex-direction: column;
+            width: 340px;
+            height: 153px;
+            left: 37px;
+            top: 144px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            /*line-height: 51px;*/
+            letter-spacing: 0.02em;
+            margin-bottom: 0;
+            color: #fff;
+            margin-top: 61px;
+        }
+        .main{
+            font-weight: 700;
+        }
+        .main_tag{
+            margin-top: 0px;
+            font-weight: 200;
+        }
+        .btn{
+            margin-top: 40px;
+            width: 151px;
+            height: 58px;
+            left: 28px;
+            top: 328px;
+            border: 3px solid #FFFFFF;
+            border-radius: 100px;
+            padding: 0%;
+        }
+        .block__image{
+            margin-top: 40px;
+        }
+        .watch{
+
+            width: 312px;
+            height: 251.3px;
+            left: 37px;
+            top: 447px;
+            padding-right: 2rem;
+            
+        }
+        .watch_shadow{
+            padding-left: 40px;
+            padding-right: 40px;
+            width: 192px;
+            height: 50px;
+            left: 94px;
+            top: 724px;
+            background: #ABC6D6;
+            filter: blur(20.5px);
+            }
+        .color{
+                padding-top: 29px;
+                width: 30px;
+                height: 162px;
+                left: 349px;
+                top: 478px;
+            }
+        .menubar{
+            display: none;
+        }
+        .mobile_nav{
+            display: flex;
+            flex-direction: row;
+            background-color: #fff;
+            display: inline;
+            justify-content:safe;
+        }
+        .social_icons{
+            margin-left: 200px;
+        }
+        .fb, .tw, .ln{
+            padding: 1rem;     
+    }
+}
