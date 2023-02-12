@@ -37,7 +37,8 @@ h1{
     margin-right: 123px;
 }
 .nav_menu{
-    padding: 1rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
     width: 30px;
     height: 20px;
     left: 35px;
@@ -61,32 +62,51 @@ h1{
     width: 100%;
     margin-bottom: 0px;
 }
-.nav_bar, .ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+.nav26{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: auto;
+    padding-top: 2rem;
 }
-.nav_bar, .li{
-    display: flex;
-    flex-direction: row;
-    color: #fff;
-}
-.menucomponent a{
+
+.nav-links{
+    padding-top: 1rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;
-    margin: 61px 45px 0 45px;
+}
+
+.nav-links a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
     text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 2rem;
+    text-align: center;
 }
-.menucomponent{
-    margin: 61px 45px 0 45px;
+
+.nav-icon img{
+    width: 88px;
+    height: 24px;
+    padding-top: 1rem;
+    margin-left: 200px;
 }
-/*.highlight{
-    background: #fff;
-    color: #B6CCDA;
+
+.nav-apple img{
+    padding-left: 3rem;
+    margin-right: 123px;
+}
+/*.nav-links-menu:hover{
+    background-color: #fff;
+    color: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    width: 130px;
+    height: 36px;
+    left: 710px;
+    top: 56px;
     border-radius: 100px;
 }*/
 .icons{
@@ -154,7 +174,7 @@ h1{
     height: 489px;
     left: 837px;
     top: 177px;*/
-
+    margin-top: 0px;
 }
 .watch_img{
     padding-right: 27px;
@@ -173,7 +193,7 @@ h1{
 .page_indicator{
         display: flex;
         justify-content: space-between;
-        margin: 79px 97px 42px 62px;
+        margin: 10px 97px 42px 62px;
     }
 .indicator{
         width: 73px;
@@ -191,22 +211,29 @@ h1{
             width: 390px;
             height: 100vh;
         }
-        .nav_item{
-            display: none;
-        }
-        .components{
+        .nav-links{
             display: none;
         }
         .page_indicator{
             display: none;
+        }
+        .nav-apple{
+            width: 40.62px;
+            height: 50px;
+        }
+        .nav-icon{
+            margin-right: 34px;
+            margin-left: 60px;
         }
         .hero{
             display: flex;
             flex-direction: column;
             padding: 3rem;
             background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+            border-radius: 25px;
         }
         .main_page{
+            border-radius: 25px 25px 25px 25px;
             display: flex;
             flex-direction: column;
         }
@@ -229,10 +256,7 @@ h1{
             left: 292px;
             top: 40px;
             padding-top: 0;
-            margin-right: 0px;   
-
-
-           
+            margin-right: 0px; 
         }
         .block__heading, .hero__tagline{
             display: none;
@@ -242,20 +266,21 @@ h1{
             flex-direction: column;
             width: 340px;
             height: 153px;
-            left: 37px;
-            top: 144px;
+            /*left: 37px;
+            top: 144px;*/
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 700;
             font-size: 32px;
             /*line-height: 51px;*/
             letter-spacing: 0.02em;
-            margin-bottom: 0;
             color: #fff;
-            margin-top: 61px;
+            margin-bottom: 31px;
         }
         .main{
             font-weight: 700;
+            white-space: nowrap;
+            margin-bottom: 0;
         }
         .main_tag{
             margin-top: 0px;
@@ -270,18 +295,17 @@ h1{
             border: 3px solid #FFFFFF;
             border-radius: 100px;
             padding: 0%;
+            margin-bottom: 40px;
         }
         .block__image{
-            margin-top: 40px;
+            margin-top: 76px;
         }
         .watch{
-
             width: 312px;
             height: 251.3px;
             left: 37px;
             top: 447px;
-            padding-right: 2rem;
-            
+            /*padding-right: 2rem;*/
         }
         .watch_shadow{
             padding-left: 40px;
@@ -292,6 +316,8 @@ h1{
             top: 724px;
             background: #ABC6D6;
             filter: blur(20.5px);
+            margin-top: 25.7px;
+            margin-bottom: 41px;
             }
         .color{
                 padding-top: 29px;
@@ -308,12 +334,19 @@ h1{
             flex-direction: row;
             background-color: #fff;
             display: inline;
-            justify-content:safe;
+            /*margin-top: 31px;*/
+
+        }
+        .nav_menu{
+            padding-top: 1rem;
         }
         .social_icons{
-            margin-left: 200px;
+            margin-left: 209px;
+            white-space: nowrap;
+            text-align: center;
         }
         .fb, .tw, .ln{
-            padding: 1rem;     
+            padding: 1rem;  
+            margin-top: 31px;   
     }
 }
