@@ -71,14 +71,18 @@ h1{
     flex-direction: row;
     color: #fff;
 }
-.nav_item{
+.menucomponent a{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-    padding: 90px;
+    margin: 61px 45px 0 45px;
+    text-decoration: none;
+}
+.menucomponent{
+    margin: 61px 45px 0 45px;
 }
 /*.highlight{
     background: #fff;
@@ -88,7 +92,9 @@ h1{
 .icons{
     padding-top: 1rem;
     justify-content: center;
-    margin: 56px 314px 85px 70px;
+    margin-right: 70px;
+    margin-top: 56px;
+    margin-left: 314px;
 }
 .main_page{
     background:linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%); ;
