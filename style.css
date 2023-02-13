@@ -220,10 +220,11 @@ h1{
         .nav-apple{
             width: 40.62px;
             height: 50px;
+            margin-right: 109px;
         }
         .nav-icon{
             margin-right: 34px;
-            margin-left: 60px;
+            margin-left: 109px;
         }
         .hero{
             display: flex;
@@ -317,7 +318,7 @@ h1{
             background: #ABC6D6;
             filter: blur(20.5px);
             margin-top: 25.7px;
-            margin-bottom: 41px;
+            /*margin-bottom: 41px;*/
             }
         .color{
                 padding-top: 29px;
@@ -330,23 +331,29 @@ h1{
             display: none;
         }
         .mobile_nav{
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            width: 50%;
+            margin-left: 25px;
             background-color: #fff;
-            display: inline;
+            /*display: inline;*/
             /*margin-top: 31px;*/
-
         }
         .nav_menu{
             padding-top: 1rem;
         }
         .social_icons{
-            margin-left: 209px;
+            /*margin-left: 209px;*/
             white-space: nowrap;
-            text-align: center;
+            margin-top: 0%;
+            padding-top: 0;
+            margin-left: 300px;
         }
         .fb, .tw, .ln{
-            padding: 1rem;  
-            margin-top: 31px;   
+            padding: 1rem;     
+    }
+    .ln{
+        margin-right: 25px;
     }
 }
